@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from src.routers.data_handler import router
-
 app = FastAPI(
     title="CAG Project API - Chat with your PDF",
     description="Advanced API for uploading PDFs, querying content via LLM, and managing data with modern UI.",
@@ -255,10 +254,13 @@ def read_root():
                     </div>
                     <div class="footer-section">
                         <h4>Technical Stack</h4>
-                        <ul>
+                        <
+                        
+                        
+                        >
                             <li>FastAPI Framework</li>
                             <li>OpenRouter AI Integration</li>
-                            <li>PyPDF Text Processing</li>
+<li>PyPDF Text Processing</li>
                             <li>Cache Augmented Generation</li>
                         </ul>
                     </div>
